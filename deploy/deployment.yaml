@@ -15,8 +15,8 @@ spec:
         service: udagramreverseproxy
     spec:
       containers:
-      - image: pinmaing/udagramreverseproxy
-        name: udagramreverseproxy
+      - image: pinmaing/udagram-reverse-proxy
+        name: udagram-reverse-proxy
         imagePullPolicy: Always     
         resources:
           requests:
